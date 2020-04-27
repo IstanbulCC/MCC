@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+#sidebarMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+
+
+.toggleSideNav{
+    width: 300px !important;
+}
+
+.sidebarMenuInner{
+    padding: 10px;
+    color: white;
+    list-style: none;
+}
+.sidebarMenuInner li{
+    padding: 20px;
+}
+.sidebarMenuInner li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-in-out .3s;
+}
+.sidebarMenuInner li a:hover{
+    color: #61b2d7;
+}
+.sideBarTitle{
+    color: white;
+    font-size: 20px;
+    padding:  20px 30px;
+    border-top: 2px solid #61b2d7;
+}
+.sideNavSocials{
+    display: flex;
+    padding: 10px 30px;
+}
+.sideNavSocials a{
+    color: white;
+    font-size: 45px;
+    margin: 10px;
+    transition: ease-in-out .3s;
+    text-decoration: none;
+}
+.sideNavSocials a:hover{
+    color: #61b2d7;
+}
+.openSidebarMenu, .sidebarIconToggle{
+    display: none;
+}
+#openSidebarMenu[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    top: 28px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3.5px;
+    margin: 1.5px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: right;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 11px;
+    background-color: rgb(255, 255, 255);
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -11px;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1024px){
+    .openSidebarMenu, .sidebarIconToggle{
+        display: block;
+    }
+}
