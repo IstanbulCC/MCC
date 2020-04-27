@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCC - Welcome to The Muslim Coding Club</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav">
+      <div class="logo-container">
+          <img src="./img/logo/Large-noBG.png" class="logo" alt="">
+      </div>
+      <div class="links-container">
+          <ul class="nav-links">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Rules</a></li>
+              <li><a href="">Join</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+          
+          <div class="burger">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" onclick="toggleNav();">
+              <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+              </label>
+          </div>
+
+          <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Rules</a></li>
+              <li><a href="">Join</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <h5 class="sideBarTitle">Social Media</h5>
+            <div class="sideNavSocials">
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-reddit"></i></a>
+            </div>
+          </div>
+
+      </div>
+      <div class="socialsOuterContainer">
+        <div class="socialsContainer">
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-reddit"></i></a>
+        </div>
+      </div>
+  </nav>
+  
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
