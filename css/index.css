@@ -64,3 +64,8 @@ p > a{
 .projects h3{
     color: #42a2ce;
 }
+@media screen and (max-width: 760px){
+    .largeLogo{
+        max-width: 200px;
+    }
+}
