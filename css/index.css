@@ -73,19 +73,14 @@ p > a{
     .largeLogo{
         max-width: 200px;
     }
-<<<<<<< HEAD
-}
-
-=======
-    .buttonsContainer{
-        display: grid;
-        margin-right: 17% !important;
-        grid-template-columns: repeat(100%, 1);
-        grid-gap: 30px;
-        margin: 70px 0 0 0;
-    }
     .btn{
         width: 100%;
     }
+    .buttonsContainer{
+        display: grid;
+        grid-template-columns: repeat(100%, 1); 
+        grid-gap: 30px;
+        margin-right: 15% !important;
+    }
 }
->>>>>>> 2f40c741bd484711a857c62dcb3758fe0e7610cf
+
