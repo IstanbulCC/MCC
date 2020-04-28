@@ -64,8 +64,23 @@ p > a{
 .projects h3{
     color: #42a2ce;
 }
+.buttonsContainer{
+    display: flex;
+    justify-content: center; 
+    margin: 70px 0 0 0;
+}
 @media screen and (max-width: 760px){
     .largeLogo{
         max-width: 200px;
+    }
+    .buttonsContainer{
+        display: grid;
+        margin-right: 17% !important;
+        grid-template-columns: repeat(100%, 1);
+        grid-gap: 30px;
+        margin: 70px 0 0 0;
+    }
+    .btn{
+        width: 100%;
     }
 }
