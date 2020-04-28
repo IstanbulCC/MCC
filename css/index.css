@@ -78,7 +78,7 @@ p > a{
     }
     .buttonsContainer{
         display: grid;
-        grid-template-columns: repeat(100%, 1); 
+        grid-template-columns: repeat(1, 100%); 
         grid-gap: 30px;
         margin-right: 15% !important;
     }

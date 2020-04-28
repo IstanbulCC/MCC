@@ -271,7 +271,15 @@ footer{
 	}
  
 }
+<<<<<<< HEAD
 						/*Visual Cards CSS*/
+=======
+.projectsContainer{
+	display: grid;
+	grid-template-columns: repeat(4, 3fr);
+	grid-gap: 20px;
+}
+>>>>>>> ae6d1857d7909d5614a3bfc2f7a062d596ff878f
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	max-width: 300px;
