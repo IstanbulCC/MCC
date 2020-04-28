@@ -1,3 +1,66 @@
 main{
+    
+}
+.welcome{
     background-color: #42a2ce;
+    width: 100%;
+    padding: 150px 10%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.largeLogo{
+    max-width: 450px;
+    background-color: #343434;
+    border-radius: 5px;
+    padding: 10px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+p{
+    color: rgb(240, 240, 240);
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+p > a{
+    color: rgb(34, 28, 28);
+}
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    transition: ease-in-out .3s;
+}
+.success{
+    background-color: #faad1b;
+}
+.dark{
+    background-color: #343434;
+}
+.success:hover{
+    background-color: #d4941d;
+}
+.dark:hover{
+    background-color: #555555;
+}
+
+.projects{
+    background-color: #fff;
+    width: 100%;
+    color: #42a2ce;
+    padding: 90px 10%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.projects h3{
+    color: #42a2ce;
 }
