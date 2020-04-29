@@ -313,6 +313,7 @@ footer{
   .cardContainer{
     display: grid;
 	grid-template-columns: 5fr 5fr 5fr 5fr;
+	grid-gap: 20px;
 }
 @media screen and (max-width: 1250px){
     .cardContainer{
