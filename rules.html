@@ -3,59 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Muhammed Muratovic | Home </title>
-    <link rel="stylesheet" href="/css/rules.css">
-    <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> <!--Main Text Font| 'Anton', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"><!--Opens Sans 'Open Sans', sans-serif-->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Varela+Round&display=swap" rel="stylesheet"> <!--Normal Text Font| 'Varela Round', sans-serif;-->
+    <title>MCC - Welcome to The Muslim Coding Club</title>
 
-    <!--ICONS
-    CodePen - <i class="fab fa-codepen"></i>
-    500px - <i class="fab fa-500px"></i>
-    Github - <i class="fab fa-github"></i>
-    LinkedIn - <i class="fab fa-linkedin"></i>
--->
-<script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/rules.css" !important>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&family=Open+Sans:wght@400;600&family=Rubik&display=swap" rel="stylesheet">
 </head>
         <body>
-            <div id="navContainer">
-
-            </div>
-            <div id="mainDiv">
-            <h1 id="title">Discord Rules</h1>
-            <div id="infoBoxDiv">
-                <p id="infoBoxText" align="center"> <br> <br> <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                     tempor incididunt ut labore et dolore magna aliqua. <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                     tempor incididunt ut labore et dolore magna aliqua. <br>
-                     labore et dolore magna aliqua.
-                </p>
-                <br> <br> <br> <br>
+            <nav class="nav">
+                <div class="logo-container">
+                    <img src="./img/logo/Large-noBG.png" class="logo" alt="">
                 </div>
-            </div>
-            <div id="ruleBoxes">
-                <div class="card">
-                    <h1>Cursing</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                        tempor incididunt ut labore et dolore magna aliqua. <br>
-                        labore et dolore magna aliqua.</p>
+                <div class="links-container">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="rules.html">Rules</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    <div class="burger">
+                      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" onclick="toggleNav();">
+                        <label for="openSidebarMenu" class="sidebarIconToggle">
+                          <div class="spinner diagonal part-1"></div>
+                          <div class="spinner horizontal"></div>
+                          <div class="spinner diagonal part-2"></div>
+                        </label>
+                    </div>
+          
+                    <div id="sidebarMenu">
+                      <ul class="sidebarMenuInner">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="rules.html">Rules</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                      <h5 class="sideBarTitle">Social Media</h5>
+                      <div class="sideNavSocials">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-reddit"></i></a>
+                      </div>
+                    </div>
+          
+                </div>
+                <div class="socialsOuterContainer">
+                  <div class="socialsContainer">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-reddit"></i></a>
                   </div>
-                  <div class="card">
-                    <h1>Advertising</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                        tempor incididunt ut labore et dolore magna aliqua. <br>
-                        labore et dolore magna aliqua.</p>
+                </div>
+            </nav>
+            <!-- NAvigation ends here -->
+            <main>
+
+                <div class="container welcome">
+                    <br>
+                    <h3>MCC Discord Rules</h3>
+                    <br>
+                    <p style="padding: 0 14%;">
+                      This is an islamic online coding club for Muslims and non-Muslims from all around the world. 
+                      Muslim coding club was built so that developers all around the globe can connect and assist each other
+                      in coding. Here at Muslim Coding Club, we solve problems, work on projects, and learn new techonologies as one family.
+                      We do not dicriminate against other religions and you dont have to be muslim to join our club. 
+                      <a href="https://quran.com/2/256-266" target="_blank">There is no compulsion in Islam.</a> The main reason that we nameed our club "Muslim Coding Club"
+                      is because we value the morals, rules, and virtues that islam teaches us about. Before joining our club, we would really appreciate you taking a minute
+                      and reading throuhg our <a href="rules.html" target="_blank">rules page</a>.
+                    </p>
+                    <div class="buttonsContainer">
+                      <a href="" class="btn success">Join</a>
+                    </div>
+                </div>
+            
+                <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                  <path d="M0 0 L50 100 L100 0 Z" fill="#42a2ce" stroke="#42a2ce"></path>
+                </svg>
+            
+                <div class="container projects">
+                  <h3>MCC Discord Rules</h3> <br> <br> <br> <br> <br>
+                  <div class="cardContainer">
+            
+                        <div class="card">
+                          <h1>Self Promotion</h1> <br> 
+                          <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                        </div>
+                        <div class="card">
+                          <h1>Cursing</h1> <br> 
+                          <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                        </div>
+                        <div class="card">
+                          <h1>Respect</h1> <br> 
+                          <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                        </div>
+                        <div class="card">
+                          <h1>Chat Spam</h1> <br> 
+                          <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                        </div>
+                        <div class="card">
+                            <h1>Other</h1> <br> 
+                            <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                          </div>
+                          <div class="card">
+                            <h1>Self Promotion</h1> <br> 
+                            <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                          </div>
+                          <div class="card">
+                            <h1>Self Promotion</h1> <br> 
+                            <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                          </div>
+                          <div class="card">
+                            <h1>Self Promotion</h1> <br> 
+                            <p class="price">Self Promoting is not allowed on the server without permission. If you woulf like to promote yourselves, be sure to contact the admin and owner!</p>
+                          </div>
                   </div>
-                  <div class="card">
-                    <h1>Cursing</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                        tempor incididunt ut labore et dolore magna aliqua. <br>
-                        labore et dolore magna aliqua.</p>
-                  </div>
-            </div>
+                </div>
+              </main>
+
+            <!--FOOTER SECTION BEGINS HERE!!!-->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <img src="./img/logo/Large-noBG.png" class="logo" alt="">
+        <p class="footer-links">
+          <a href="#">Home</a>
+            ·
+          <a href="#">About</a>
+            ·
+          <a href="#">Rules</a>
+            ·
+          <a href="#">Join</a>
+            ·
+          <a href="#">Contact</a>
+        </p>
+    </div>
+               
+    <div class="footer-center"> 
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Based:</span> The Whole World 🌎</p>
         </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">contact@mcc.com</a></p>
+          </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About MCC ❓</span>
+          The Strongest 💪 Community of Muslim 🌙 <br> Coders 🧑‍💻 in the whole world 🌎❗
+      </p>
+               
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-reddit"></i></a>
+      </div>
+    </div>
+  </footer>
+               
+    <script src="./js/index.js"></script>
         </body>
 </html>
