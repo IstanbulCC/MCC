@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family:'open sans',sans-serif;
+}
+.atag{
+  background-color: salmon;
+  font-size: 50px;
+  border-radius: 10px;
+}
