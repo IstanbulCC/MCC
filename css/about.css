@@ -4,14 +4,27 @@
   padding: 10px;
 }
 .grid-item {
-  background-color: white;
+  color: rgb(240, 240, 240);
+  font-size: 1.3rem;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  line-height: 40px;
+  background-color: #42a2ce ;
   padding: 20px;
   font-size: 30px;
   text-align: center;
   font-family:'open sans',sans-serif;
 }
 .atag{
-  background-color: salmon;
+  background-color:  #003366;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  padding:10px 20px;
   font-size: 50px;
   border-radius: 10px;
+}
+
+body{
+   background-color: #42a2ce ;
 }
